@@ -1,0 +1,128 @@
+
+      /* Sticky footer styles
+      -------------------------------------------------- */
+
+      body {
+        padding-top: 20px;
+        padding-bottom: 60px;
+
+      }
+
+      #bg{
+        position:fixed;
+        height:100%;
+        width:100%;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size:100%;
+        margin-top:-20px;
+        z-index:-20;
+      }
+
+      #phone{
+        position:fixed;
+        height:100%;
+        width:100%;
+        background-image: url("../img/armytank.jpg");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        z-index: -1;
+        bottom: 0px;
+        right:0px;
+        margin-top:-20px;
+      }
+
+      /* Custom container */
+      .container {
+        margin: 0 auto;
+        max-width: 1200px;
+        z-index: 1000;
+      }
+      .container > hr {
+        margin: 60px 0;
+      }
+
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 30px;
+        bottom:0px;
+        position: fixed;
+        width:100%;
+        padding:10px;
+      }
+      #footer {
+        background-color: #f5f5f5;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+      .form-signin {
+        max-width: 300px;
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+      .form-signin .form-signin-heading,
+      .form-signin .checkbox {
+        margin-bottom: 10px;
+      }
+      .form-signin input[type="text"],
+      .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+      }
+
+      .item{
+        padding:20px;
+      }
+      .itembg{
+        background-color: #fafafa;
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+
+      .btn-invite{
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+      .invite-box{
+        margin-top:60px;
+        float:left;
+        padding:40px;
+      }
+      .navbar{
+
+      }
